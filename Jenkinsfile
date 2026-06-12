@@ -47,8 +47,8 @@ pipeline{
 post{
         success{
             script{
-                emailext from: 'mentor@trainwithshubham.com',
-                to: 'mentor@trainwithshubham.com',
+                emailext from: 'mentor@Prathameshsutavane.com',
+                to: 'mentor@prathameshsutavane.com',
                 body: 'Build success for Demo CICD App',
                 subject: 'Build success for Demo CICD App'
             }
